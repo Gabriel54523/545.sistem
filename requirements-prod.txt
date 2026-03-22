@@ -1,0 +1,4 @@
+# Instalar DESPUÉS de requirements.txt (para producción con PostgreSQL en Linux)
+-r requirements.txt
+psycopg2-binary==2.9.9
+Gunicorn==21.2.0
